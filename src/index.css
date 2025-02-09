@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img
+{
+  width: 150px;
+}
+ 
+article div
+{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+ 
+.pizzaKartya
+{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
